@@ -1,0 +1,215 @@
+_schema-version: 3.3.0
+ID: Healthcare
+version: 1.0.0
+description: "A simple CAP project."
+parameters:
+  enable-parallel-deployments: true
+  deploy_mode: html5-repo
+build-parameters:
+  before-all:
+    - builder: custom
+      commands:
+        - npm ci
+        - npx cds build --production
+modules:
+  - name: Healthcare-srv
+    type: nodejs
+    path: gen/srv
+    parameters:
+      buildpack: nodejs_buildpack
+      instances: 1
+      readiness-health-check-type: http
+      readiness-health-check-http-endpoint: /health
+    build-parameters:
+      builder: npm
+    provides:
+      - name: srv-api
+        properties:
+          srv-url: ${default-url}
+    requires:
+      - name: Healthcare-db
+      - name: Healthcare-auth
+      - name: Healthcare-destination
+
+  - name: Healthcare-db-deployer
+    type: hdb
+    path: gen/db
+    parameters:
+      buildpack: nodejs_buildpack
+    requires:
+      - name: Healthcare-db
+
+  - name: Healthcare-app-deployer
+    type: com.sap.application.content
+    path: gen
+    parameters:
+      config:
+        destinations:
+          - forwardAuthToken: true
+            name: srv-api
+            url: ~{srv-api/srv-url}
+          - name: ui5
+            url: https://ui5.sap.com
+    requires:
+      - name: srv-api
+      - name: Healthcare-auth
+      - name: Healthcare-destination
+      - name: Healthcare-repo-host
+        parameters:
+          content-target: true
+    build-parameters:
+      build-result: app/
+      requires:
+        - name: comhealthcaredoctordoctorui
+          artifacts:
+            - comhealthcaredoctordoctorui.zip
+          target-path: app/
+        - name: comhealthcarepatientpatientui
+          artifacts:
+            - comhealthcarepatientpatientui.zip
+          target-path: app/
+
+  - name: comhealthcaredoctordoctorui
+    type: html5
+    path: app/doctor-ui
+    build-parameters:
+      build-result: dist
+      builder: custom
+      commands:
+        - npm install
+        - npm run build:cf
+      supported-platforms:
+        []
+
+  - name: comhealthcarepatientpatientui
+    type: html5
+    path: app/patient-ui
+    build-parameters:
+      build-result: dist
+      builder: custom
+      commands:
+        - npm install
+        - npm run build:cf
+      supported-platforms:
+        []
+
+  - name: Healthcare-destinations
+    type: com.sap.application.content
+    requires:
+      - name: Healthcare-html5-repo-runtime
+        parameters:
+          service-key:
+            name: Healthcare-html5-repo-runtime-service-key
+      - name: Healthcare-auth
+        parameters:
+          service-key:
+            name: Healthcare-auth-key
+      - name: Healthcare-repo-host
+        parameters:
+          service-key:
+            name: Healthcare-repo-host-key
+      - name: Healthcare-destination
+        parameters:
+          content-target: true
+    build-parameters:
+      no-source: true
+    parameters:
+      content:
+        subaccount:
+          existing_destinations_policy: update
+          destinations:
+            - Name: Healthcare-html5-repository
+              ServiceInstanceName: Healthcare-html5-service
+              ServiceKeyName: Healthcare-repo-host-key
+              sap.cloud.service: Healthcare.service
+        instance:
+          existing_destinations_policy: update
+          destinations:
+            - Name: Healthcare-html5-runtime
+              ServiceInstanceName: Healthcare-html5-repo-runtime
+              ServiceKeyName: Healthcare-html5-repo-runtime-service-key
+              sap.cloud.service: Healthcare.service
+            - Name: Healthcare-auth-dest
+              Authentication: OAuth2UserTokenExchange
+              ServiceInstanceName: Healthcare-auth
+              ServiceKeyName: Healthcare-auth-key
+              sap.cloud.service: Healthcare.service
+
+resources:
+  - name: Healthcare-db
+    type: com.sap.xs.hdi-container
+    parameters:
+      service: hana
+      service-plan: hdi-shared
+
+  - name: Healthcare-repo-host
+    type: org.cloudfoundry.managed-service
+    parameters:
+      service: html5-apps-repo
+      service-name: Healthcare-html5-service
+      service-plan: app-host
+
+  - name: Healthcare-html5-repo-runtime
+    type: org.cloudfoundry.managed-service
+    parameters:
+      service: html5-apps-repo
+      service-name: Healthcare-html5-repo-runtime
+      service-plan: app-runtime
+
+  - name: Healthcare-auth
+    type: org.cloudfoundry.managed-service
+    parameters:
+      service: xsuaa
+      service-plan: application
+      path: ./xs-security.json
+      config:
+        xsappname: Healthcare-${org}-${space}
+        tenant-mode: dedicated
+        oauth2-configuration:
+          credential-types:
+            - binding-secret
+            - x509
+        role-collections:
+          - description: generated
+            name: doctor (Healthcare ${org}-${space})
+            role-template-references:
+              - $XSAPPNAME.doctor
+          - description: generated
+            name: patient (Healthcare ${org}-${space})
+            role-template-references:
+              - $XSAPPNAME.patient
+
+  - name: Healthcare-destination
+    type: org.cloudfoundry.managed-service
+    parameters:
+      service: destination
+      service-plan: lite
+      config:
+        HTML5Runtime_enabled: true
+        init_data:
+          subaccount:
+            existing_destinations_policy: update
+            destinations:
+              - Authentication: NoAuthentication
+                Name: healthcare-rt
+                ProxyType: Internet
+                Type: HTTP
+                URL: https://bcb690b7trial.launchpad.${default-domain}
+                CEP.HTML5contentprovider: true
+          instance:
+            existing_destinations_policy: update
+            destinations:
+              - Authentication: NoAuthentication
+                Name: ui5
+                ProxyType: Internet
+                Type: HTTP
+                URL: https://ui5.sap.com
+              - Authentication: NoAuthentication
+                HTML5.DynamicDestination: true
+                HTML5.ForwardAuthToken: true
+                Name: srv-api
+                ProxyType: Internet
+                Type: HTTP
+                URL: ~{srv-api/srv-url}
+    requires:
+      - name: srv-api

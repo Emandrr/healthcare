@@ -1,0 +1,217 @@
+{
+	"_version": "1.86.0",
+	"sap.app": {
+		"id": "com.healthcare.doctor.doctorui",
+		"type": "application",
+		"i18n": {
+			"bundleUrl": "i18n/i18n.properties",
+			"supportedLocales": [
+				""
+			]
+		},
+		"applicationVersion": {
+			"version": "0.0.1"
+		},
+		"title": "{{appTitle}}",
+		"description": "{{appDescription}}",
+		"resources": "resources.json",
+		"sourceTemplate": {
+			"id": "@sap/generator-fiori:lrop",
+			"version": "1.28.0",
+			"toolsId": "f7eb7abd-7937-4997-ad97-2b212175bb1d"
+		},
+		"dataSources": {
+			"mainService": {
+				"uri": "/odata/v4/doctor/",
+				"type": "OData",
+				"settings": {
+					"annotations": [],
+					"odataVersion": "4.0"
+				}
+			}
+		},
+		"crossNavigation": {
+			"inbounds": {
+				"Patient-manage": {
+					"semanticObject": "Patient",
+					"action": "manage",
+					"title": "{{Patient-manage.flpTitle}}",
+					"signature": {
+						"parameters": {},
+						"additionalParameters": "allowed"
+					}
+				}
+			}
+		}
+	},
+	"sap.ui": {
+		"technology": "UI5",
+		"icons": {
+			"icon": "",
+			"favIcon": "",
+			"phone": "",
+			"phone@2": "",
+			"tablet": "",
+			"tablet@2": ""
+		},
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		}
+	},
+	"sap.ui5": {
+		"flexEnabled": true,
+		"dependencies": {
+			"minUI5Version": "1.150.0",
+			"libs": {
+				"sap.m": {},
+				"sap.ui.core": {},
+				"sap.fe.templates": {}
+			}
+		},
+		"contentDensities": {
+			"compact": true,
+			"cozy": true
+		},
+		"models": {
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"settings": {
+					"bundleName": "com.healthcare.doctor.doctorui.i18n.i18n",
+					"supportedLocales": [
+						""
+					]
+				}
+			},
+			"": {
+				"dataSource": "mainService",
+				"preload": true,
+				"settings": {
+					"operationMode": "Server",
+					"autoExpandSelect": true,
+					"earlyRequests": true
+				}
+			},
+			"@i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"uri": "i18n/i18n.properties",
+				"settings": {
+					"supportedLocales": [
+						""
+					]
+				}
+			}
+		},
+		"resources": {
+			"css": []
+		},
+		"routing": {
+			"config": {},
+			"routes": [
+				{
+					"pattern": ":?query:",
+					"name": "PatientsList",
+					"target": "PatientsList"
+				},
+				{
+					"pattern": "Patients({key}):?query:",
+					"name": "PatientsObjectPage",
+					"target": "PatientsObjectPage"
+				},
+				{
+					"pattern": "Patients({key})/diagnoses({key2}):?query:",
+					"name": "DiagnosesObjectPage",
+					"target": "DiagnosesObjectPage"
+				}
+			],
+			"targets": {
+				"PatientsList": {
+					"type": "Component",
+					"id": "PatientsList",
+					"name": "sap.fe.templates.ListReport",
+					"options": {
+						"settings": {
+							"contextPath": "/Patients",
+							"variantManagement": "Page",
+							"navigation": {
+								"Patients": {
+									"detail": {
+										"route": "PatientsObjectPage"
+									}
+								}
+							},
+							"controlConfiguration": {
+								"@com.sap.vocabularies.UI.v1.LineItem": {
+									"tableSettings": {
+										"type": "ResponsiveTable"
+									}
+								}
+							}
+						}
+					}
+				},
+				"PatientsObjectPage": {
+					"type": "Component",
+					"id": "PatientsObjectPage",
+					"name": "sap.fe.templates.ObjectPage",
+					"options": {
+						"settings": {
+							"editableHeaderContent": false,
+							"contextPath": "/Patients",
+							"navigation": {
+								"diagnoses": {
+									"detail": {
+										"route": "DiagnosesObjectPage"
+									}
+								}
+							},
+							"controlConfiguration": {
+								"diagnoses/@com.sap.vocabularies.UI.v1.LineItem": {
+									"tableSettings": {
+										"type": "ResponsiveTable"
+									}
+								}
+							}
+						}
+					}
+				},
+				"DiagnosesList": {
+					"type": "Component",
+					"id": "DiagnosesList",
+					"name": "sap.fe.templates.ListReport",
+					"options": {
+						"settings": {
+							"contextPath": "/Diagnoses",
+							"variantManagement": "Page"
+						}
+					}
+				},
+				"DiagnosesObjectPage": {
+					"type": "Component",
+					"id": "DiagnosesObjectPage",
+					"name": "sap.fe.templates.ObjectPage",
+					"options": {
+						"settings": {
+							"contextPath": "/Diagnoses"
+						}
+					}
+				}
+			}
+		},
+		"flexBundle": false
+	},
+	"sap.fiori": {
+		"registrationIds": [],
+		"archeType": "transactional"
+	},
+	"sap.fe": {
+		"app": {
+			"enableLazyLoading": true
+		}
+	},
+	"sap.cloud": {
+		"public": true,
+		"service": "Healthcare.service"
+	}
+}

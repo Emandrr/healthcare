@@ -1,0 +1,14 @@
+Getting list of files for HTML5 application comhealthcaredoctordoctorui in org bcb690b7trial / space dev as pavel1zd@gmail.com...
+OK
+
+path   
+/comhealthcaredoctordoctorui-0.0.1/Component-dbg.js   
+/comhealthcaredoctordoctorui-0.0.1/Component-preload.js   
+/comhealthcaredoctordoctorui-0.0.1/Component-preload.js.map   
+/comhealthcaredoctordoctorui-0.0.1/Component.js   
+/comhealthcaredoctordoctorui-0.0.1/Component.js.map   
+/comhealthcaredoctordoctorui-0.0.1/i18n/i18n.properties   
+/comhealthcaredoctordoctorui-0.0.1/index.html   
+/comhealthcaredoctordoctorui-0.0.1/manifest.json   
+/comhealthcaredoctordoctorui-0.0.1/sap-ui-cachebuster-info.json   
+/comhealthcaredoctordoctorui-0.0.1/xs-app.json   

@@ -1,0 +1,6 @@
+ID,userId,firstName,lastName,category,createdAt,createdBy,modifiedAt,modifiedBy
+aaaaaaaa-1111-1111-1111-111111111111,doctor1,Robert,Taylor,THERAPIST,2026-07-03T08:00:00Z,admin,2026-07-03T08:00:00Z,admin
+aaaaaaaa-2222-2222-2222-222222222222,doctor2,Emily,Wilson,CARDIOLOGIST,2026-07-03T08:10:00Z,admin,2026-07-03T08:10:00Z,admin
+aaaaaaaa-3333-3333-3333-333333333333,doctor3,James,Moore,NEUROLOGIST,2026-07-03T08:20:00Z,admin,2026-07-03T08:20:00Z,admin
+aaaaaaaa-4444-4444-4444-444444444444,doctor4,Linda,Anderson,DENTIST,2026-07-03T08:30:00Z,admin,2026-07-03T08:30:00Z,admin
+aaaaaaaa-5555-5555-5555-555555555555,doctor5,Daniel,Thomas,SURGEON,2026-07-03T08:40:00Z,admin,2026-07-03T08:40:00Z,admin

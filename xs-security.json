@@ -1,0 +1,31 @@
+{
+  "scopes": [
+    {
+      "name": "$XSAPPNAME.doctor",
+      "description": "doctor"
+    },
+    {
+      "name": "$XSAPPNAME.patient",
+      "description": "patient"
+    }
+  ],
+  "attributes": [],
+  "role-templates": [
+    {
+      "name": "doctor",
+      "description": "generated",
+      "scope-references": [
+        "$XSAPPNAME.doctor"
+      ],
+      "attribute-references": []
+    },
+    {
+      "name": "patient",
+      "description": "generated",
+      "scope-references": [
+        "$XSAPPNAME.patient"
+      ],
+      "attribute-references": []
+    }
+  ]
+}

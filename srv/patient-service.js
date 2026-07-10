@@ -1,0 +1,31 @@
+const cds = require('@sap/cds');
+
+module.exports = cds.service.impl(async function () {
+
+    const { Diagnoses } = this.entities;
+
+    this.before('READ', Diagnoses, async req => {
+
+        const patient = await SELECT.one
+            .from('healthcare.Patient')
+            .where({
+                userId: req.user.id
+            });
+
+        if (!patient) {
+            return req.reject(403, 'Patient not found');
+        }
+
+        req.query.where([
+            {
+                ref: ['patient_ID']
+            },
+            '=',
+            {
+                val: patient.ID
+            }
+        ]);
+
+    });
+
+});

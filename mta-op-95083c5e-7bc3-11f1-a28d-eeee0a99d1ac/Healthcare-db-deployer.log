@@ -1,0 +1,88 @@
+#2026 07 09 18:26:20.342#Z#DEBUG#95083c5e-7bc3-11f1-a28d-eeee0a99d1ac.Healthcare-db-deployer#flowable-async-job-executor-thread-23983#
+[PollStageAppStatusExecution] 4686f6c4-a31e-4c3e-bc7e-558986553d9d [2026-07-09T18:25:52.383849] Updated app with guid 4686f6c4-a31e-4c3e-bc7e-558986553d9d ({"lifecycle"=>{"data"=>{"buildpacks"=>["nodejs_buildpack"]}, "type"=>"buildpack"}}) (STDOUT, API)#
+#2026 07 09 18:26:20.342#Z#DEBUG#95083c5e-7bc3-11f1-a28d-eeee0a99d1ac.Healthcare-db-deployer#flowable-async-job-executor-thread-23983#
+[PollStageAppStatusExecution] 4686f6c4-a31e-4c3e-bc7e-558986553d9d [2026-07-09T18:25:52.486045] Updating process: "web" (STDOUT, API)#
+#2026 07 09 18:26:20.342#Z#DEBUG#95083c5e-7bc3-11f1-a28d-eeee0a99d1ac.Healthcare-db-deployer#flowable-async-job-executor-thread-23983#
+[PollStageAppStatusExecution] 4686f6c4-a31e-4c3e-bc7e-558986553d9d [2026-07-09T18:26:00.380718] Uploading app package for app with guid 4686f6c4-a31e-4c3e-bc7e-558986553d9d (STDOUT, API)#
+#2026 07 09 18:26:20.342#Z#DEBUG#95083c5e-7bc3-11f1-a28d-eeee0a99d1ac.Healthcare-db-deployer#flowable-async-job-executor-thread-23983#
+[PollStageAppStatusExecution] 4686f6c4-a31e-4c3e-bc7e-558986553d9d [2026-07-09T18:26:00.552744] Updated app with guid 4686f6c4-a31e-4c3e-bc7e-558986553d9d ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2026 07 09 18:26:20.342#Z#DEBUG#95083c5e-7bc3-11f1-a28d-eeee0a99d1ac.Healthcare-db-deployer#flowable-async-job-executor-thread-23983#
+[PollStageAppStatusExecution] 4686f6c4-a31e-4c3e-bc7e-558986553d9d [2026-07-09T18:26:10.623018] Creating build for app with guid 4686f6c4-a31e-4c3e-bc7e-558986553d9d (STDOUT, API)#
+#2026 07 09 18:26:20.342#Z#DEBUG#95083c5e-7bc3-11f1-a28d-eeee0a99d1ac.Healthcare-db-deployer#flowable-async-job-executor-thread-23983#
+[PollStageAppStatusExecution] 4686f6c4-a31e-4c3e-bc7e-558986553d9d [2026-07-09T18:26:11.290614] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 07 09 18:26:20.342#Z#DEBUG#95083c5e-7bc3-11f1-a28d-eeee0a99d1ac.Healthcare-db-deployer#flowable-async-job-executor-thread-23983#
+[PollStageAppStatusExecution] 4686f6c4-a31e-4c3e-bc7e-558986553d9d [2026-07-09T18:26:11.344038] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2026 07 09 18:26:20.342#Z#DEBUG#95083c5e-7bc3-11f1-a28d-eeee0a99d1ac.Healthcare-db-deployer#flowable-async-job-executor-thread-23983#
+[PollStageAppStatusExecution] 4686f6c4-a31e-4c3e-bc7e-558986553d9d [2026-07-09T18:26:11.344120] Cell c839c7b1-088e-41af-b9b7-66256aacd457 creating container for instance 1314830a-67b0-4d50-99b8-43e181cd37bf (STDOUT, STG)#
+#2026 07 09 18:26:20.342#Z#DEBUG#95083c5e-7bc3-11f1-a28d-eeee0a99d1ac.Healthcare-db-deployer#flowable-async-job-executor-thread-23983#
+[PollStageAppStatusExecution] 4686f6c4-a31e-4c3e-bc7e-558986553d9d [2026-07-09T18:26:12.446138] Security group rules were updated (STDOUT, STG)#
+#2026 07 09 18:26:20.342#Z#DEBUG#95083c5e-7bc3-11f1-a28d-eeee0a99d1ac.Healthcare-db-deployer#flowable-async-job-executor-thread-23983#
+[PollStageAppStatusExecution] 4686f6c4-a31e-4c3e-bc7e-558986553d9d [2026-07-09T18:26:12.545652] Cell c839c7b1-088e-41af-b9b7-66256aacd457 successfully created container for instance 1314830a-67b0-4d50-99b8-43e181cd37bf (STDOUT, STG)#
+#2026 07 09 18:26:20.342#Z#DEBUG#95083c5e-7bc3-11f1-a28d-eeee0a99d1ac.Healthcare-db-deployer#flowable-async-job-executor-thread-23983#
+[PollStageAppStatusExecution] 4686f6c4-a31e-4c3e-bc7e-558986553d9d [2026-07-09T18:26:12.929842] Downloading build artifacts cache... (STDOUT, STG)#
+#2026 07 09 18:26:20.342#Z#DEBUG#95083c5e-7bc3-11f1-a28d-eeee0a99d1ac.Healthcare-db-deployer#flowable-async-job-executor-thread-23983#
+[PollStageAppStatusExecution] 4686f6c4-a31e-4c3e-bc7e-558986553d9d [2026-07-09T18:26:12.929953] Downloading app package... (STDOUT, STG)#
+#2026 07 09 18:26:20.342#Z#DEBUG#95083c5e-7bc3-11f1-a28d-eeee0a99d1ac.Healthcare-db-deployer#flowable-async-job-executor-thread-23983#
+[PollStageAppStatusExecution] 4686f6c4-a31e-4c3e-bc7e-558986553d9d [2026-07-09T18:26:13.043158] Downloaded build artifacts cache (223B) (STDOUT, STG)#
+#2026 07 09 18:26:20.342#Z#DEBUG#95083c5e-7bc3-11f1-a28d-eeee0a99d1ac.Healthcare-db-deployer#flowable-async-job-executor-thread-23983#
+[PollStageAppStatusExecution] 4686f6c4-a31e-4c3e-bc7e-558986553d9d [2026-07-09T18:26:13.325501] Downloaded app package (2.3M) (STDOUT, STG)#
+#2026 07 09 18:26:20.342#Z#DEBUG#95083c5e-7bc3-11f1-a28d-eeee0a99d1ac.Healthcare-db-deployer#flowable-async-job-executor-thread-23983#
+[PollStageAppStatusExecution] 4686f6c4-a31e-4c3e-bc7e-558986553d9d [2026-07-09T18:26:13.468536] -----> Nodejs Buildpack version 1.9.2 (STDOUT, STG)#
+#2026 07 09 18:26:20.342#Z#DEBUG#95083c5e-7bc3-11f1-a28d-eeee0a99d1ac.Healthcare-db-deployer#flowable-async-job-executor-thread-23983#
+[PollStageAppStatusExecution] 4686f6c4-a31e-4c3e-bc7e-558986553d9d [2026-07-09T18:26:13.707500] -----> Bootstrapping python (STDOUT, STG)#
+#2026 07 09 18:26:20.342#Z#DEBUG#95083c5e-7bc3-11f1-a28d-eeee0a99d1ac.Healthcare-db-deployer#flowable-async-job-executor-thread-23983#
+[PollStageAppStatusExecution] 4686f6c4-a31e-4c3e-bc7e-558986553d9d [2026-07-09T18:26:13.707527] -----> Installing python 3.13.13 (STDOUT, STG)#
+#2026 07 09 18:26:20.342#Z#DEBUG#95083c5e-7bc3-11f1-a28d-eeee0a99d1ac.Healthcare-db-deployer#flowable-async-job-executor-thread-23983#
+[PollStageAppStatusExecution] 4686f6c4-a31e-4c3e-bc7e-558986553d9d [2026-07-09T18:26:13.707555] Copy [/tmp/buildpacks/17bd89c67d092631/dependencies/268a5e3743d51a14b86ea9da64439307/python_3.13.13_linux_x64_cflinuxfs4_8311abbf.tgz] (STDOUT, STG)#
+#2026 07 09 18:26:20.342#Z#DEBUG#95083c5e-7bc3-11f1-a28d-eeee0a99d1ac.Healthcare-db-deployer#flowable-async-job-executor-thread-23983#
+[PollStageAppStatusExecution] 4686f6c4-a31e-4c3e-bc7e-558986553d9d [2026-07-09T18:26:18.558872] -----> Installing binaries (STDOUT, STG)#
+#2026 07 09 18:26:20.342#Z#DEBUG#95083c5e-7bc3-11f1-a28d-eeee0a99d1ac.Healthcare-db-deployer#flowable-async-job-executor-thread-23983#
+[PollStageAppStatusExecution] 4686f6c4-a31e-4c3e-bc7e-558986553d9d [2026-07-09T18:26:18.558957] engines.node (package.json): >=18 (STDOUT, STG)#
+#2026 07 09 18:26:20.342#Z#DEBUG#95083c5e-7bc3-11f1-a28d-eeee0a99d1ac.Healthcare-db-deployer#flowable-async-job-executor-thread-23983#
+[PollStageAppStatusExecution] 4686f6c4-a31e-4c3e-bc7e-558986553d9d [2026-07-09T18:26:18.558979] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 07 09 18:26:20.342#Z#DEBUG#95083c5e-7bc3-11f1-a28d-eeee0a99d1ac.Healthcare-db-deployer#flowable-async-job-executor-thread-23983#
+[PollStageAppStatusExecution] 4686f6c4-a31e-4c3e-bc7e-558986553d9d [2026-07-09T18:26:18.559067] [31;1m**WARNING**[0m Dangerous semver range (>) in engines.node. See: http://docs.cloudfoundry.org/buildpacks/node/node-tips.html (STDOUT, STG)#
+#2026 07 09 18:26:20.342#Z#DEBUG#95083c5e-7bc3-11f1-a28d-eeee0a99d1ac.Healthcare-db-deployer#flowable-async-job-executor-thread-23983#
+[PollStageAppStatusExecution] 4686f6c4-a31e-4c3e-bc7e-558986553d9d [2026-07-09T18:26:18.559105] -----> Installing node 24.15.0 (STDOUT, STG)#
+#2026 07 09 18:26:20.342#Z#DEBUG#95083c5e-7bc3-11f1-a28d-eeee0a99d1ac.Healthcare-db-deployer#flowable-async-job-executor-thread-23983#
+[PollStageAppStatusExecution] 4686f6c4-a31e-4c3e-bc7e-558986553d9d [2026-07-09T18:26:18.559354] Copy [/tmp/buildpacks/17bd89c67d092631/dependencies/6441e97e6386f47ec4c16cfdf8db0a17/node_24.15.0_linux_x64_cflinuxfs4_1a62d98b.tgz] (STDOUT, STG)#
+#2026 07 09 18:26:30.438#Z#DEBUG#95083c5e-7bc3-11f1-a28d-eeee0a99d1ac.Healthcare-db-deployer#flowable-async-job-executor-thread-23994#
+[PollStageAppStatusExecution] 4686f6c4-a31e-4c3e-bc7e-558986553d9d [2026-07-09T18:26:21.246847] Using default npm version: 11.12.1 (STDOUT, STG)#
+#2026 07 09 18:26:30.438#Z#DEBUG#95083c5e-7bc3-11f1-a28d-eeee0a99d1ac.Healthcare-db-deployer#flowable-async-job-executor-thread-23994#
+[PollStageAppStatusExecution] 4686f6c4-a31e-4c3e-bc7e-558986553d9d [2026-07-09T18:26:21.246878] -----> Installing yarn 1.22.22 (STDOUT, STG)#
+#2026 07 09 18:26:30.438#Z#DEBUG#95083c5e-7bc3-11f1-a28d-eeee0a99d1ac.Healthcare-db-deployer#flowable-async-job-executor-thread-23994#
+[PollStageAppStatusExecution] 4686f6c4-a31e-4c3e-bc7e-558986553d9d [2026-07-09T18:26:21.247054] Copy [/tmp/buildpacks/17bd89c67d092631/dependencies/e4fe26756e9984a665478d350474fa2e/yarn_1.22.22_linux_noarch_any-stack_b6132b86.tgz] (STDOUT, STG)#
+#2026 07 09 18:26:30.438#Z#DEBUG#95083c5e-7bc3-11f1-a28d-eeee0a99d1ac.Healthcare-db-deployer#flowable-async-job-executor-thread-23994#
+[PollStageAppStatusExecution] 4686f6c4-a31e-4c3e-bc7e-558986553d9d [2026-07-09T18:26:21.643953] Installed yarn 1.22.22 (STDOUT, STG)#
+#2026 07 09 18:26:30.438#Z#DEBUG#95083c5e-7bc3-11f1-a28d-eeee0a99d1ac.Healthcare-db-deployer#flowable-async-job-executor-thread-23994#
+[PollStageAppStatusExecution] 4686f6c4-a31e-4c3e-bc7e-558986553d9d [2026-07-09T18:26:21.643992] -----> Creating runtime environment (STDOUT, STG)#
+#2026 07 09 18:26:30.438#Z#DEBUG#95083c5e-7bc3-11f1-a28d-eeee0a99d1ac.Healthcare-db-deployer#flowable-async-job-executor-thread-23994#
+[PollStageAppStatusExecution] 4686f6c4-a31e-4c3e-bc7e-558986553d9d [2026-07-09T18:26:21.645987] NODE_ENV=production (STDOUT, STG)#
+#2026 07 09 18:26:30.438#Z#DEBUG#95083c5e-7bc3-11f1-a28d-eeee0a99d1ac.Healthcare-db-deployer#flowable-async-job-executor-thread-23994#
+[PollStageAppStatusExecution] 4686f6c4-a31e-4c3e-bc7e-558986553d9d [2026-07-09T18:26:21.646018] NODE_HOME=/tmp/contents368557057/deps/0/node (STDOUT, STG)#
+#2026 07 09 18:26:30.438#Z#DEBUG#95083c5e-7bc3-11f1-a28d-eeee0a99d1ac.Healthcare-db-deployer#flowable-async-job-executor-thread-23994#
+[PollStageAppStatusExecution] 4686f6c4-a31e-4c3e-bc7e-558986553d9d [2026-07-09T18:26:21.646023] NODE_MODULES_CACHE=true (STDOUT, STG)#
+#2026 07 09 18:26:30.438#Z#DEBUG#95083c5e-7bc3-11f1-a28d-eeee0a99d1ac.Healthcare-db-deployer#flowable-async-job-executor-thread-23994#
+[PollStageAppStatusExecution] 4686f6c4-a31e-4c3e-bc7e-558986553d9d [2026-07-09T18:26:21.646026] NODE_VERBOSE=false (STDOUT, STG)#
+#2026 07 09 18:26:30.438#Z#DEBUG#95083c5e-7bc3-11f1-a28d-eeee0a99d1ac.Healthcare-db-deployer#flowable-async-job-executor-thread-23994#
+[PollStageAppStatusExecution] 4686f6c4-a31e-4c3e-bc7e-558986553d9d [2026-07-09T18:26:21.646040] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+#2026 07 09 18:26:30.438#Z#DEBUG#95083c5e-7bc3-11f1-a28d-eeee0a99d1ac.Healthcare-db-deployer#flowable-async-job-executor-thread-23994#
+[PollStageAppStatusExecution] 4686f6c4-a31e-4c3e-bc7e-558986553d9d [2026-07-09T18:26:21.646056] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+#2026 07 09 18:26:30.438#Z#DEBUG#95083c5e-7bc3-11f1-a28d-eeee0a99d1ac.Healthcare-db-deployer#flowable-async-job-executor-thread-23994#
+[PollStageAppStatusExecution] 4686f6c4-a31e-4c3e-bc7e-558986553d9d [2026-07-09T18:26:21.646172] -----> Building dependencies (STDOUT, STG)#
+#2026 07 09 18:26:30.438#Z#DEBUG#95083c5e-7bc3-11f1-a28d-eeee0a99d1ac.Healthcare-db-deployer#flowable-async-job-executor-thread-23994#
+[PollStageAppStatusExecution] 4686f6c4-a31e-4c3e-bc7e-558986553d9d [2026-07-09T18:26:21.646197] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+#2026 07 09 18:26:30.438#Z#DEBUG#95083c5e-7bc3-11f1-a28d-eeee0a99d1ac.Healthcare-db-deployer#flowable-async-job-executor-thread-23994#
+[PollStageAppStatusExecution] 4686f6c4-a31e-4c3e-bc7e-558986553d9d [2026-07-09T18:26:21.646211] Rebuilding any native modules (STDOUT, STG)#
+#2026 07 09 18:26:30.438#Z#DEBUG#95083c5e-7bc3-11f1-a28d-eeee0a99d1ac.Healthcare-db-deployer#flowable-async-job-executor-thread-23994#
+[PollStageAppStatusExecution] 4686f6c4-a31e-4c3e-bc7e-558986553d9d [2026-07-09T18:26:22.240743] rebuilt dependencies successfully (STDOUT, STG)#
+#2026 07 09 18:26:30.438#Z#DEBUG#95083c5e-7bc3-11f1-a28d-eeee0a99d1ac.Healthcare-db-deployer#flowable-async-job-executor-thread-23994#
+[PollStageAppStatusExecution] 4686f6c4-a31e-4c3e-bc7e-558986553d9d [2026-07-09T18:26:22.310640] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+#2026 07 09 18:26:30.438#Z#DEBUG#95083c5e-7bc3-11f1-a28d-eeee0a99d1ac.Healthcare-db-deployer#flowable-async-job-executor-thread-23994#
+[PollStageAppStatusExecution] 4686f6c4-a31e-4c3e-bc7e-558986553d9d [2026-07-09T18:26:22.840359] up to date in 440ms (STDOUT, STG)#
+#2026 07 09 18:26:30.438#Z#DEBUG#95083c5e-7bc3-11f1-a28d-eeee0a99d1ac.Healthcare-db-deployer#flowable-async-job-executor-thread-23994#
+[PollStageAppStatusExecution] 4686f6c4-a31e-4c3e-bc7e-558986553d9d [2026-07-09T18:26:22.840572] 4 packages are looking for funding (STDOUT, STG)#
+#2026 07 09 18:26:30.438#Z#DEBUG#95083c5e-7bc3-11f1-a28d-eeee0a99d1ac.Healthcare-db-deployer#flowable-async-job-executor-thread-23994#
+[PollStageAppStatusExecution] 4686f6c4-a31e-4c3e-bc7e-558986553d9d [2026-07-09T18:26:22.840650] run `npm fund` for details (STDOUT, STG)#
+#2026 07 09 18:26:30.438#Z#DEBUG#95083c5e-7bc3-11f1-a28d-eeee0a99d1ac.Healthcare-db-deployer#flowable-async-job-executor-thread-23994#
+[PollStageAppStatusExecution] 4686f6c4-a31e-4c3e-bc7e-558986553d9d [2026-07-09T18:26:23.456173] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
