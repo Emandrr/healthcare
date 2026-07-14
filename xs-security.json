@@ -27,5 +27,9 @@
       ],
       "attribute-references": []
     }
+  ],
+    "authorities": [
+    "$XSAPPNAME.doctor",
+    "$XSAPPNAME.patient"
   ]
 }
