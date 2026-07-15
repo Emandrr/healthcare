@@ -5,7 +5,7 @@ module.exports = cds.service.impl(async function () {
     const { Patients, Doctors, Diagnoses } = this.entities;
 
     
-    this.before(['CREATE', 'UPDATE'], Patients, req => {
+    this.before(['CREATE', 'UPDATE'], Patients, async req => {
 
         if (req.data.dateOfBirth) {
 
@@ -16,7 +16,20 @@ module.exports = cds.service.impl(async function () {
             }
 
         }
+        
+        if (req.data.email) {
 
+            const existingPatient = await SELECT.one
+                .from(Patients)
+                .where({
+                    email: req.data.email
+                });
+
+            if (existingPatient && existingPatient.ID !== req.data.ID) {
+                req.error(400, 'Email already exists.');
+            }
+
+        }
     });
 
 
