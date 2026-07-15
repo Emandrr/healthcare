@@ -3,6 +3,7 @@ using { cuid, managed } from '@sap/cds/common';
 namespace healthcare;
 
 entity Patient : cuid, managed {
+    @assert.unique
     userId      : String(100);
     firstName   : String(100);
     lastName    : String(100);
