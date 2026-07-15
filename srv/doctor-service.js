@@ -17,16 +17,16 @@ module.exports = cds.service.impl(async function () {
 
         }
         
-        if (req.data.email) {
+        if (req.data.userId) {
 
             const existingPatient = await SELECT.one
                 .from(Patients)
                 .where({
-                    email: req.data.email
+                    userId: req.data.userId
                 });
 
             if (existingPatient && existingPatient.ID !== req.data.ID) {
-                req.error(400, 'Email already exists.');
+                req.error(400, 'User ID already exists.');
             }
 
         }
