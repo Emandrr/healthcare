@@ -1,0 +1,452 @@
+#2026 07 20 12:44:29.247#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7658#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:43:56.375885] Updated app with guid 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 ({"lifecycle"=>{"data"=>{"buildpacks"=>["nodejs_buildpack"]}, "type"=>"buildpack"}}) (STDOUT, API)#
+#2026 07 20 12:44:29.247#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7658#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:43:56.453586] Updating process: "web" (STDOUT, API)#
+#2026 07 20 12:44:29.247#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7658#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:44:08.749202] Uploading app package for app with guid 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 (STDOUT, API)#
+#2026 07 20 12:44:29.247#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7658#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:44:08.927982] Updated app with guid 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2026 07 20 12:44:29.247#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7658#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:44:19.421108] Creating build for app with guid 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 (STDOUT, API)#
+#2026 07 20 12:44:49.539#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7519#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:44:39.870416] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 07 20 12:44:49.539#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7519#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:44:39.976977] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2026 07 20 12:44:49.539#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7519#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:44:39.977071] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 creating container for instance 88c4594c-48b4-4b6a-be33-0de203f60f19 (STDOUT, STG)#
+#2026 07 20 12:44:49.539#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7519#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:44:43.213078] Security group rules were updated (STDOUT, STG)#
+#2026 07 20 12:44:49.539#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7519#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:44:43.928223] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully created container for instance 88c4594c-48b4-4b6a-be33-0de203f60f19 (STDOUT, STG)#
+#2026 07 20 12:44:49.539#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7519#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:44:44.947772] Downloading app package... (STDOUT, STG)#
+#2026 07 20 12:44:49.539#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7519#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:44:44.948134] Downloading build artifacts cache... (STDOUT, STG)#
+#2026 07 20 12:44:49.539#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7519#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:44:46.851987] Downloaded build artifacts cache (222B) (STDOUT, STG)#
+#2026 07 20 12:44:49.539#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7519#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:44:47.558353] Downloaded app package (2.3M) (STDOUT, STG)#
+#2026 07 20 12:44:49.539#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7519#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:44:48.137398] -----> Nodejs Buildpack version 1.9.2 (STDOUT, STG)#
+#2026 07 20 12:45:00.050#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7684#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:44:49.409022] -----> Bootstrapping python (STDOUT, STG)#
+#2026 07 20 12:45:00.050#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7684#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:44:49.410927] -----> Installing python 3.13.13 (STDOUT, STG)#
+#2026 07 20 12:45:00.050#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7684#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:44:49.412150] Copy [/tmp/buildpacks/17bd89c67d092631/dependencies/268a5e3743d51a14b86ea9da64439307/python_3.13.13_linux_x64_cflinuxfs4_8311abbf.tgz] (STDOUT, STG)#
+#2026 07 20 12:45:20.288#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7696#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:13.112632] -----> Installing binaries (STDOUT, STG)#
+#2026 07 20 12:45:20.288#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7696#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:13.160883] engines.node (package.json): >=18 (STDOUT, STG)#
+#2026 07 20 12:45:20.288#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7696#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:13.160921] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 07 20 12:45:20.288#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7696#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:13.161462] [31;1m**WARNING**[0m Dangerous semver range (>) in engines.node. See: http://docs.cloudfoundry.org/buildpacks/node/node-tips.html (STDOUT, STG)#
+#2026 07 20 12:45:20.288#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7696#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:13.161843] -----> Installing node 24.15.0 (STDOUT, STG)#
+#2026 07 20 12:45:20.288#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7696#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:13.162953] Copy [/tmp/buildpacks/17bd89c67d092631/dependencies/6441e97e6386f47ec4c16cfdf8db0a17/node_24.15.0_linux_x64_cflinuxfs4_1a62d98b.tgz] (STDOUT, STG)#
+#2026 07 20 12:45:30.436#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7700#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:25.941516] Using default npm version: 11.12.1 (STDOUT, STG)#
+#2026 07 20 12:45:30.436#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7700#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:25.941561] -----> Installing yarn 1.22.22 (STDOUT, STG)#
+#2026 07 20 12:45:30.436#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7700#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:25.941566] Copy [/tmp/buildpacks/17bd89c67d092631/dependencies/e4fe26756e9984a665478d350474fa2e/yarn_1.22.22_linux_noarch_any-stack_b6132b86.tgz] (STDOUT, STG)#
+#2026 07 20 12:45:30.436#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7700#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:27.722024] Installed yarn 1.22.22 (STDOUT, STG)#
+#2026 07 20 12:45:30.436#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7700#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:27.722195] -----> Creating runtime environment (STDOUT, STG)#
+#2026 07 20 12:45:30.436#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7700#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:27.757657] NODE_ENV=production (STDOUT, STG)#
+#2026 07 20 12:45:30.436#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7700#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:27.760975] NODE_HOME=/tmp/contents1613403715/deps/0/node (STDOUT, STG)#
+#2026 07 20 12:45:30.436#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7700#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:27.761369] NODE_MODULES_CACHE=true (STDOUT, STG)#
+#2026 07 20 12:45:30.436#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7700#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:27.762316] NODE_VERBOSE=false (STDOUT, STG)#
+#2026 07 20 12:45:30.436#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7700#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:27.763396] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+#2026 07 20 12:45:30.436#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7700#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:27.763837] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+#2026 07 20 12:45:30.436#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7700#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:27.765325] -----> Building dependencies (STDOUT, STG)#
+#2026 07 20 12:45:30.436#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7700#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:27.765620] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+#2026 07 20 12:45:30.436#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7700#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:27.766899] Rebuilding any native modules (STDOUT, STG)#
+#2026 07 20 12:45:40.759#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7707#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:31.984895] rebuilt dependencies successfully (STDOUT, STG)#
+#2026 07 20 12:45:40.759#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7707#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:32.003150] npm notice (STDOUT, STG)#
+#2026 07 20 12:45:40.759#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7707#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:32.003186] npm notice New major version of npm available! 11.12.1 -> 12.0.1 (STDOUT, STG)#
+#2026 07 20 12:45:40.759#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7707#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:32.003192] npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.1 (STDOUT, STG)#
+#2026 07 20 12:45:40.759#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7707#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:32.003233] npm notice To update run: npm install -g npm@12.0.1 (STDOUT, STG)#
+#2026 07 20 12:45:40.759#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7707#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:32.003237] npm notice (STDOUT, STG)#
+#2026 07 20 12:45:40.759#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7707#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:32.160735] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+#2026 07 20 12:45:40.759#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7707#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:34.520179] up to date in 2s (STDOUT, STG)#
+#2026 07 20 12:45:40.759#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7707#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:34.522288] 4 packages are looking for funding (STDOUT, STG)#
+#2026 07 20 12:45:40.759#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7707#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:34.525488] run `npm fund` for details (STDOUT, STG)#
+#2026 07 20 12:45:40.759#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7707#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:38.105671] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+#2026 07 20 12:46:11.432#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7587#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:02.950539] Exit status 0 (STDOUT, STG)#
+#2026 07 20 12:46:11.432#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7587#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:02.950680] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2026 07 20 12:46:11.432#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7587#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:02.950792] Uploading droplet... (STDOUT, STG)#
+#2026 07 20 12:46:11.432#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7587#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:02.950812] Uploading build artifacts cache... (STDOUT, STG)#
+#2026 07 20 12:46:11.432#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7587#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:03.456924] Uploaded build artifacts cache (226B) (STDOUT, STG)#
+#2026 07 20 12:46:11.432#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7587#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:05.159872] Creating droplet for app with guid 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 (STDOUT, API)#
+#2026 07 20 12:46:21.705#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7743#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:11.227075] Uploaded droplet (58.6M) (STDOUT, STG)#
+#2026 07 20 12:46:21.705#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7743#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:11.245597] Uploading complete (STDOUT, STG)#
+#2026 07 20 12:46:21.705#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7743#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:12.964629] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 stopping instance 88c4594c-48b4-4b6a-be33-0de203f60f19 (STDOUT, STG)#
+#2026 07 20 12:46:21.705#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7743#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:12.964707] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 destroying container for instance 88c4594c-48b4-4b6a-be33-0de203f60f19 (STDOUT, STG)#
+#2026 07 20 12:46:21.705#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7743#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:13.005860] Staging complete for build 88c4594c-48b4-4b6a-be33-0de203f60f19 (STDOUT, API)#
+#2026 07 20 12:46:21.705#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7743#
+[PollStageAppStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:16.532604] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully destroyed container for instance 88c4594c-48b4-4b6a-be33-0de203f60f19 (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:43:56.375885] Updated app with guid 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 ({"lifecycle"=>{"data"=>{"buildpacks"=>["nodejs_buildpack"]}, "type"=>"buildpack"}}) (STDOUT, API)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:43:56.453586] Updating process: "web" (STDOUT, API)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:44:08.749202] Uploading app package for app with guid 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 (STDOUT, API)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:44:08.927982] Updated app with guid 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:44:19.421108] Creating build for app with guid 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 (STDOUT, API)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:44:39.870416] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:44:39.976977] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:44:39.977071] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 creating container for instance 88c4594c-48b4-4b6a-be33-0de203f60f19 (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:44:43.213078] Security group rules were updated (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:44:43.928223] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully created container for instance 88c4594c-48b4-4b6a-be33-0de203f60f19 (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:44:44.947772] Downloading app package... (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:44:44.948134] Downloading build artifacts cache... (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:44:46.851987] Downloaded build artifacts cache (222B) (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:44:47.558353] Downloaded app package (2.3M) (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:44:48.137398] -----> Nodejs Buildpack version 1.9.2 (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:44:49.409022] -----> Bootstrapping python (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:44:49.410927] -----> Installing python 3.13.13 (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:44:49.412150] Copy [/tmp/buildpacks/17bd89c67d092631/dependencies/268a5e3743d51a14b86ea9da64439307/python_3.13.13_linux_x64_cflinuxfs4_8311abbf.tgz] (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:13.112632] -----> Installing binaries (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:13.160883] engines.node (package.json): >=18 (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:13.160921] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:13.161462] [31;1m**WARNING**[0m Dangerous semver range (>) in engines.node. See: http://docs.cloudfoundry.org/buildpacks/node/node-tips.html (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:13.161843] -----> Installing node 24.15.0 (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:13.162953] Copy [/tmp/buildpacks/17bd89c67d092631/dependencies/6441e97e6386f47ec4c16cfdf8db0a17/node_24.15.0_linux_x64_cflinuxfs4_1a62d98b.tgz] (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:25.941516] Using default npm version: 11.12.1 (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:25.941561] -----> Installing yarn 1.22.22 (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:25.941566] Copy [/tmp/buildpacks/17bd89c67d092631/dependencies/e4fe26756e9984a665478d350474fa2e/yarn_1.22.22_linux_noarch_any-stack_b6132b86.tgz] (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:27.722024] Installed yarn 1.22.22 (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:27.722195] -----> Creating runtime environment (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:27.757657] NODE_ENV=production (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:27.760975] NODE_HOME=/tmp/contents1613403715/deps/0/node (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:27.761369] NODE_MODULES_CACHE=true (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:27.762316] NODE_VERBOSE=false (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:27.763396] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:27.763837] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:27.765325] -----> Building dependencies (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:27.765620] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:27.766899] Rebuilding any native modules (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:31.984895] rebuilt dependencies successfully (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:32.003150] npm notice (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:32.003186] npm notice New major version of npm available! 11.12.1 -> 12.0.1 (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:32.003192] npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.1 (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:32.003233] npm notice To update run: npm install -g npm@12.0.1 (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:32.003237] npm notice (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:32.160735] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:34.520179] up to date in 2s (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:34.522288] 4 packages are looking for funding (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:34.525488] run `npm fund` for details (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:45:38.105671] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:02.950539] Exit status 0 (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:02.950680] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:02.950792] Uploading droplet... (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:02.950812] Uploading build artifacts cache... (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:03.456924] Uploaded build artifacts cache (226B) (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:05.159872] Creating droplet for app with guid 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 (STDOUT, API)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:11.227075] Uploaded droplet (58.6M) (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:11.245597] Uploading complete (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:12.964629] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 stopping instance 88c4594c-48b4-4b6a-be33-0de203f60f19 (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:12.964707] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 destroying container for instance 88c4594c-48b4-4b6a-be33-0de203f60f19 (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:13.005860] Staging complete for build 88c4594c-48b4-4b6a-be33-0de203f60f19 (STDOUT, API)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:16.532604] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully destroyed container for instance 88c4594c-48b4-4b6a-be33-0de203f60f19 (STDOUT, STG)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:21.786658] Updated app with guid 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 ({:droplet_guid=>"17c39d51-8a9f-48a1-8151-effc9048bfbd"}) (STDOUT, API)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:22.360519] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 creating container for instance d51e3464-61aa-43e9-976e-7e5d6b2ae7d7 (STDOUT, CELL)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:25.364873] Security group rules were updated (STDOUT, CELL)#
+#2026 07 20 12:46:31.807#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7604#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:27.954117] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully created container for instance d51e3464-61aa-43e9-976e-7e5d6b2ae7d7 (STDOUT, CELL)#
+#2026 07 20 12:46:51.989#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7768#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:43.263692] Invoking pre-start scripts. (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:46:51.989#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7768#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:44.391217] Invoking start command. (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:46:51.989#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7768#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:48.750968] > start (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:46:51.989#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7768#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:48.750988] > node node_modules/@sap/hdi-deploy/deploy.js --use-hdb --parameter com.sap.hana.di.table/try_fast_table_migration=true (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:46:51.989#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7768#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:51.212887] VCAP_SERVICES: (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:46:51.989#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7768#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:51.218575] { (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:46:51.989#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7768#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:51.218607] "hana": [ (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:46:51.989#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7768#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:51.218622] { (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:46:51.989#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7768#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:51.218626] "name": "Healthcare-db", (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:46:51.989#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7768#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:51.218630] "label": "hana", (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:46:51.989#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7768#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:51.218633] "plan": "hdi-shared", (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:46:51.989#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7768#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:51.218635] "credentials": { (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:46:51.989#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7768#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:51.218639] "schema": "8FDBF6F073A645AD8940ECD8D052E7A7", (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:46:51.989#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7768#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:51.218641] "database_id": "9b56feea-e649-4fec-b1f0-b9896aa3b70d", (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:46:51.989#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7768#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:51.218645] "user": "8FDBF6F073A645AD8940ECD8D052E7A7_DZA610P79F4TWZOJEEBCJ5YZW_RT", (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:46:51.989#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7768#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:51.218649] "hdi_user": "8FDBF6F073A645AD8940ECD8D052E7A7_DZA610P79F4TWZOJEEBCJ5YZW_DT" (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:46:51.989#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7768#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:51.218651] }, (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:46:51.989#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7768#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:51.218653] "tags": [ (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:46:51.989#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7768#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:51.218660] "hana", (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:46:51.989#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7768#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:51.218663] "database", (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:46:51.989#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7768#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:51.218667] "relational" (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:46:51.989#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7768#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:51.218672] ] (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:46:51.989#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7768#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:51.218674] } (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:46:51.989#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7768#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:51.218679] ] (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:46:51.989#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7768#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:51.218681] } (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:52.322980] @sap/hdi-deploy, version 5.7.0 (mode default), server version 4.00.000.00.1783512515 (4.0.0.0), cloud version 2026.14.10, node version 24.15.0, HDI version 1016, container API version 1007 (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:52.323229] Deployment started at 2026-07-20 12:46:52 (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:52.324441] Using hdb@2.29.5 for connection (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:52.429077] No ignore file at /home/vcap/app/.hdiignore. (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:52.432366] Collecting files... (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:52.445765] Collecting files... ok (0s 15ms) (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:52.449978] 3 directories collected (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:52.450720] 27 files collected (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:52.451337] 0 reusable modules collected (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:52.451526] Target service: Healthcare-db (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:52.916956] Previous build with request ID 24 finished at 2026-07-17T09:28:24.457 with status Rolled back and message: Starting make in the container "8FDBF6F073A645AD8940ECD8D052E7A7" with 0 files to deploy, 0 files to undeploy... ok. (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:52.917242] Processing revoke files... (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:52.920656] Processing revoke files... ok (0s 3ms) (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:52.921026] Processing grants files... (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:52.921306] Processing grants files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:52.928352] Preprocessing files... (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:52.932262] Preprocessing files... ok (0s 3ms) (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:52.932749] Connecting to the container "8FDBF6F073A645AD8940ECD8D052E7A7"... (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:53.074089] Connecting to the container "8FDBF6F073A645AD8940ECD8D052E7A7"... ok (0s 141ms) (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:53.075022] Locking the container "8FDBF6F073A645AD8940ECD8D052E7A7"... (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:53.443008] Locking the container "8FDBF6F073A645AD8940ECD8D052E7A7"... ok (0s 368ms) (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:53.444055] Synchronizing files with the container "8FDBF6F073A645AD8940ECD8D052E7A7"... (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:54.783261] Deleting files... (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:54.983258] Deleting files... ok (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:54.983876] Writing files... (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:54.985511] Writing 3 items (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:55.297817] Writing files... ok (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:55.297977] Synchronizing files with the container "8FDBF6F073A645AD8940ECD8D052E7A7"... ok (1s 855ms) (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:55.298953] added files: [] (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:55.299842] modified files: [] (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:55.301466] deleted files: [] (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:55.302541] 0 modified or added files are scheduled for deploy based on delta detection (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:55.303226] 0 deleted files are scheduled for undeploy based on delta detection (filtered by undeploy allowlist) (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:55.305429] 0 files are scheduled for deploy based on explicit specification (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:55.305740] 0 files are scheduled for undeploy based on explicit specification (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:55.306101] Deploying to the container "8FDBF6F073A645AD8940ECD8D052E7A7"... (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:56.233096] Polling messages for request id: 29 (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:56.301358] Starting make in the container "8FDBF6F073A645AD8940ECD8D052E7A7" with 0 files to deploy, 0 files to undeploy... (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:56.305256] Disabling table replication for the container schema "8FDBF6F073A645AD8940ECD8D052E7A7"... (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:56.305951] Disabling table replication for the container schema "8FDBF6F073A645AD8940ECD8D052E7A7"... ok (0s 18ms) (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:56.306307] Migrating libraries... (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:58.346549] Migrating libraries... ok (1s 973ms) (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:58.346564] Making... (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:58.346570] Preparing... (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:58.346575] Preparing... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:58.346577] Preparing the make transaction... (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:58.346590] Preparing the make transaction... ok (0s 488ms) (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:58.346593] Calculating dependencies... (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:58.346598] Expanding... (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:58.346600] Expanding... ok (0s 153ms) (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:58.398888] Precompiling... (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:58.398908] Precompiling... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:58.398912] Merging... (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:58.398915] Merging... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:58.398920] Calculating dependencies... ok (0s 153ms) (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:58.398922] No make necessary (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:58.398925] Making... ok (0s 725ms) (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:58.398930] Enabling table replication for the container schema "8FDBF6F073A645AD8940ECD8D052E7A7"... (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:58.398934] Enabling table replication for the container schema "8FDBF6F073A645AD8940ECD8D052E7A7"... ok (0s 15ms) (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:58.407545] Starting make in the container "8FDBF6F073A645AD8940ECD8D052E7A7" with 0 files to deploy, 0 files to undeploy... ok (2s 742ms) (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:58.407580] Deploying to the container "8FDBF6F073A645AD8940ECD8D052E7A7"... ok (3s 93ms) (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:58.407585] No default-access-role handling needed; global role "8FDBF6F073A645AD8940ECD8D052E7A7::access_role" will not be adapted (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:58.407589] Unlocking the container "8FDBF6F073A645AD8940ECD8D052E7A7"... (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:58.407592] Unlocking the container "8FDBF6F073A645AD8940ECD8D052E7A7"... ok (0s 3ms) (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:58.407595] Deployment to container 8FDBF6F073A645AD8940ECD8D052E7A7 done [Deployment ID: none]. (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:58.407974] Deployment ended at 2026-07-20 12:46:58 (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:58.410252] (7s 787ms) (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:58.489147] npm notice (STDERR, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:58.489185] npm notice New major version of npm available! 11.12.1 -> 12.0.1 (STDERR, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:58.489191] npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.1 (STDERR, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:58.489194] npm notice To update run: npm install -g npm@12.0.1 (STDERR, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:58.489198] npm notice (STDERR, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:58.752120] Exit status 0 (STDOUT, APP/TASK/deploy)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:59.286237] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 stopping instance d51e3464-61aa-43e9-976e-7e5d6b2ae7d7 (STDOUT, CELL)#
+#2026 07 20 12:47:02.174#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-db-deployer#flowable-async-job-executor-thread-7253#
+[PollExecuteTaskStatusExecution] 9128b83a-b593-4a3a-8269-6b0a8c0e63b8 [2026-07-20T12:46:59.286274] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 destroying container for instance d51e3464-61aa-43e9-976e-7e5d6b2ae7d7 (STDOUT, CELL)#

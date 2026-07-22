@@ -1,0 +1,182 @@
+#2026 07 20 12:44:49.758#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7677#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:44:29.380095] Uploading app package for app with guid e1737b58-520d-42c3-b693-0fe288db2b4d (STDOUT, API)#
+#2026 07 20 12:44:49.758#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7677#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:44:29.551029] Updated app with guid e1737b58-520d-42c3-b693-0fe288db2b4d ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2026 07 20 12:44:49.758#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7677#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:44:39.707020] Stopping app with guid e1737b58-520d-42c3-b693-0fe288db2b4d (STDOUT, API)#
+#2026 07 20 12:44:49.758#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7677#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:44:39.738724] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 stopping instance c2d8c056-c957-4997-6250-9322 (STDOUT, CELL)#
+#2026 07 20 12:44:49.758#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7677#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:44:39.943945] Creating build for app with guid e1737b58-520d-42c3-b693-0fe288db2b4d (STDOUT, API)#
+#2026 07 20 12:45:50.901#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7572#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:45:42.305403] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 07 20 12:45:50.901#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7572#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:45:42.401578] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2026 07 20 12:45:50.901#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7572#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:45:42.401666] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 creating container for instance 3c583ad3-2403-42b5-80d6-f337edd8ced3 (STDOUT, STG)#
+#2026 07 20 12:45:50.901#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7572#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:45:44.788795] Security group rules were updated (STDOUT, STG)#
+#2026 07 20 12:45:50.901#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7572#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:45:45.486509] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully created container for instance 3c583ad3-2403-42b5-80d6-f337edd8ced3 (STDOUT, STG)#
+#2026 07 20 12:45:50.901#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7572#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:45:46.238465] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 destroying container for instance c2d8c056-c957-4997-6250-9322 (STDOUT, CELL)#
+#2026 07 20 12:45:50.901#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7572#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:45:46.425910] Downloading app package... (STDOUT, STG)#
+#2026 07 20 12:45:50.901#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7572#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:45:46.426337] Downloading build artifacts cache... (STDOUT, STG)#
+#2026 07 20 12:45:50.901#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7572#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:45:46.607054] Exit status 137 (STDOUT, PROXY)#
+#2026 07 20 12:45:50.901#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7572#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:45:48.101988] Downloaded build artifacts cache (224B) (STDOUT, STG)#
+#2026 07 20 12:45:50.901#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7572#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:45:49.192881] Downloaded app package (4.3M) (STDOUT, STG)#
+#2026 07 20 12:45:50.901#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7572#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:45:49.614663] -----> Nodejs Buildpack version 1.9.2 (STDOUT, STG)#
+#2026 07 20 12:46:01.700#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7725#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:45:51.111780] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully destroyed container for instance c2d8c056-c957-4997-6250-9322 (STDOUT, CELL)#
+#2026 07 20 12:46:01.700#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7725#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:45:52.818197] -----> Bootstrapping python (STDOUT, STG)#
+#2026 07 20 12:46:01.700#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7725#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:45:52.818241] -----> Installing python 3.13.13 (STDOUT, STG)#
+#2026 07 20 12:46:01.700#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7725#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:45:52.818475] Copy [/tmp/buildpacks/17bd89c67d092631/dependencies/268a5e3743d51a14b86ea9da64439307/python_3.13.13_linux_x64_cflinuxfs4_8311abbf.tgz] (STDOUT, STG)#
+#2026 07 20 12:46:21.526#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7741#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:46:13.951172] -----> Installing binaries (STDOUT, STG)#
+#2026 07 20 12:46:21.526#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7741#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:46:13.969716] engines.node (package.json): >=20 (STDOUT, STG)#
+#2026 07 20 12:46:21.526#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7741#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:46:13.999832] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 07 20 12:46:21.526#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7741#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:46:14.000792] [31;1m**WARNING**[0m Dangerous semver range (>) in engines.node. See: http://docs.cloudfoundry.org/buildpacks/node/node-tips.html (STDOUT, STG)#
+#2026 07 20 12:46:21.526#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7741#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:46:14.009241] -----> Installing node 24.15.0 (STDOUT, STG)#
+#2026 07 20 12:46:21.526#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7741#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:46:14.010517] Copy [/tmp/buildpacks/17bd89c67d092631/dependencies/6441e97e6386f47ec4c16cfdf8db0a17/node_24.15.0_linux_x64_cflinuxfs4_1a62d98b.tgz] (STDOUT, STG)#
+#2026 07 20 12:46:31.945#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7748#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:46:30.573139] Using default npm version: 11.12.1 (STDOUT, STG)#
+#2026 07 20 12:46:31.945#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7748#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:46:30.573301] -----> Installing yarn 1.22.22 (STDOUT, STG)#
+#2026 07 20 12:46:31.945#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7748#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:46:30.585790] Copy [/tmp/buildpacks/17bd89c67d092631/dependencies/e4fe26756e9984a665478d350474fa2e/yarn_1.22.22_linux_noarch_any-stack_b6132b86.tgz] (STDOUT, STG)#
+#2026 07 20 12:46:41.869#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7756#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:46:32.832611] Installed yarn 1.22.22 (STDOUT, STG)#
+#2026 07 20 12:46:41.869#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7756#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:46:32.833001] -----> Creating runtime environment (STDOUT, STG)#
+#2026 07 20 12:46:41.869#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7756#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:46:32.856541] NODE_ENV=production (STDOUT, STG)#
+#2026 07 20 12:46:41.869#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7756#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:46:32.856581] NODE_HOME=/tmp/contents2121698267/deps/0/node (STDOUT, STG)#
+#2026 07 20 12:46:41.869#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7756#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:46:32.856587] NODE_MODULES_CACHE=true (STDOUT, STG)#
+#2026 07 20 12:46:41.869#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7756#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:46:32.856590] NODE_VERBOSE=false (STDOUT, STG)#
+#2026 07 20 12:46:41.869#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7756#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:46:32.856593] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+#2026 07 20 12:46:41.869#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7756#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:46:32.856602] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+#2026 07 20 12:46:41.869#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7756#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:46:32.856608] -----> Building dependencies (STDOUT, STG)#
+#2026 07 20 12:46:41.869#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7756#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:46:32.856611] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+#2026 07 20 12:46:41.869#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7756#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:46:32.856613] Rebuilding any native modules (STDOUT, STG)#
+#2026 07 20 12:46:41.869#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7756#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:46:35.829329] rebuilt dependencies successfully (STDOUT, STG)#
+#2026 07 20 12:46:41.869#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7756#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:46:35.832076] npm notice (STDOUT, STG)#
+#2026 07 20 12:46:41.869#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7756#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:46:35.832115] npm notice New major version of npm available! 11.12.1 -> 12.0.1 (STDOUT, STG)#
+#2026 07 20 12:46:41.869#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7756#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:46:35.832127] npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.1 (STDOUT, STG)#
+#2026 07 20 12:46:41.869#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7756#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:46:35.832130] npm notice To update run: npm install -g npm@12.0.1 (STDOUT, STG)#
+#2026 07 20 12:46:41.869#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7756#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:46:35.832132] npm notice (STDOUT, STG)#
+#2026 07 20 12:46:41.869#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7756#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:46:35.976660] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+#2026 07 20 12:46:41.869#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7756#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:46:40.285329] up to date in 4s (STDOUT, STG)#
+#2026 07 20 12:46:41.869#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7756#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:46:40.288042] 28 packages are looking for funding (STDOUT, STG)#
+#2026 07 20 12:46:41.869#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7756#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:46:40.289555] run `npm fund` for details (STDOUT, STG)#
+#2026 07 20 12:46:52.070#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7615#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:46:45.698371] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+#2026 07 20 12:47:22.420#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7787#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:47:13.607044] Exit status 0 (STDOUT, STG)#
+#2026 07 20 12:47:22.420#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7787#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:47:13.607114] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2026 07 20 12:47:22.420#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7787#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:47:13.607168] Uploading droplet... (STDOUT, STG)#
+#2026 07 20 12:47:22.420#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7787#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:47:13.607202] Uploading build artifacts cache... (STDOUT, STG)#
+#2026 07 20 12:47:22.420#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7787#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:47:14.133423] Uploaded build artifacts cache (226B) (STDOUT, STG)#
+#2026 07 20 12:47:22.420#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7787#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:47:16.132381] Creating droplet for app with guid e1737b58-520d-42c3-b693-0fe288db2b4d (STDOUT, API)#
+#2026 07 20 12:47:22.420#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7787#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:47:17.199810] Uploaded droplet (60M) (STDOUT, STG)#
+#2026 07 20 12:47:22.420#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7787#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:47:17.220061] Uploading complete (STDOUT, STG)#
+#2026 07 20 12:47:22.420#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7787#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:47:18.225278] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 stopping instance 3c583ad3-2403-42b5-80d6-f337edd8ced3 (STDOUT, STG)#
+#2026 07 20 12:47:22.420#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7787#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:47:18.225303] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 destroying container for instance 3c583ad3-2403-42b5-80d6-f337edd8ced3 (STDOUT, STG)#
+#2026 07 20 12:47:22.420#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7787#
+[PollStageAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:47:18.282272] Staging complete for build 3c583ad3-2403-42b5-80d6-f337edd8ced3 (STDOUT, API)#
+#2026 07 20 12:47:32.567#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7795#
+[PollStartAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:47:22.507686] Updated app with guid e1737b58-520d-42c3-b693-0fe288db2b4d ({:droplet_guid=>"26b3a189-2b77-4cc5-80ca-9ec5bfb3d7b6"}) (STDOUT, API)#
+#2026 07 20 12:47:32.567#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7795#
+[PollStartAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:47:22.683784] Creating revision for app with guid e1737b58-520d-42c3-b693-0fe288db2b4d (STDOUT, API)#
+#2026 07 20 12:47:32.567#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7795#
+[PollStartAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:47:22.726246] Starting app with guid e1737b58-520d-42c3-b693-0fe288db2b4d (STDOUT, API)#
+#2026 07 20 12:47:32.567#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7795#
+[PollStartAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:47:23.546916] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully destroyed container for instance 3c583ad3-2403-42b5-80d6-f337edd8ced3 (STDOUT, STG)#
+#2026 07 20 12:47:42.720#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7803#
+[PollStartAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:47:22.507686] Updated app with guid e1737b58-520d-42c3-b693-0fe288db2b4d ({:droplet_guid=>"26b3a189-2b77-4cc5-80ca-9ec5bfb3d7b6"}) (STDOUT, API)#
+#2026 07 20 12:47:42.720#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7803#
+[PollStartAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:47:22.683784] Creating revision for app with guid e1737b58-520d-42c3-b693-0fe288db2b4d (STDOUT, API)#
+#2026 07 20 12:47:42.720#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7803#
+[PollStartAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:47:22.726246] Starting app with guid e1737b58-520d-42c3-b693-0fe288db2b4d (STDOUT, API)#
+#2026 07 20 12:47:42.720#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7803#
+[PollStartAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:47:23.546916] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully destroyed container for instance 3c583ad3-2403-42b5-80d6-f337edd8ced3 (STDOUT, STG)#
+#2026 07 20 12:47:42.720#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7803#
+[PollStartAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:47:35.344074] Stopping app with guid e1737b58-520d-42c3-b693-0fe288db2b4d (STDOUT, API)#
+#2026 07 20 12:47:42.720#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7803#
+[PollStartAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:47:35.494647] Starting app with guid e1737b58-520d-42c3-b693-0fe288db2b4d (STDOUT, API)#
+#2026 07 20 12:47:52.768#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7812#
+[PollStartAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:47:22.507686] Updated app with guid e1737b58-520d-42c3-b693-0fe288db2b4d ({:droplet_guid=>"26b3a189-2b77-4cc5-80ca-9ec5bfb3d7b6"}) (STDOUT, API)#
+#2026 07 20 12:47:52.768#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7812#
+[PollStartAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:47:22.683784] Creating revision for app with guid e1737b58-520d-42c3-b693-0fe288db2b4d (STDOUT, API)#
+#2026 07 20 12:47:52.768#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7812#
+[PollStartAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:47:22.726246] Starting app with guid e1737b58-520d-42c3-b693-0fe288db2b4d (STDOUT, API)#
+#2026 07 20 12:47:52.768#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7812#
+[PollStartAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:47:23.546916] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully destroyed container for instance 3c583ad3-2403-42b5-80d6-f337edd8ced3 (STDOUT, STG)#
+#2026 07 20 12:47:52.768#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7812#
+[PollStartAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:47:35.344074] Stopping app with guid e1737b58-520d-42c3-b693-0fe288db2b4d (STDOUT, API)#
+#2026 07 20 12:47:52.768#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7812#
+[PollStartAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:47:35.494647] Starting app with guid e1737b58-520d-42c3-b693-0fe288db2b4d (STDOUT, API)#
+#2026 07 20 12:47:52.768#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7812#
+[PollStartAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:47:44.664793] Stopping app with guid e1737b58-520d-42c3-b693-0fe288db2b4d (STDOUT, API)#
+#2026 07 20 12:47:52.768#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7812#
+[PollStartAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:47:44.801034] Starting app with guid e1737b58-520d-42c3-b693-0fe288db2b4d (STDOUT, API)#
+#2026 07 20 12:48:02.765#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7656#
+[PollStartAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:47:22.507686] Updated app with guid e1737b58-520d-42c3-b693-0fe288db2b4d ({:droplet_guid=>"26b3a189-2b77-4cc5-80ca-9ec5bfb3d7b6"}) (STDOUT, API)#
+#2026 07 20 12:48:02.765#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7656#
+[PollStartAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:47:22.683784] Creating revision for app with guid e1737b58-520d-42c3-b693-0fe288db2b4d (STDOUT, API)#
+#2026 07 20 12:48:02.765#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7656#
+[PollStartAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:47:22.726246] Starting app with guid e1737b58-520d-42c3-b693-0fe288db2b4d (STDOUT, API)#
+#2026 07 20 12:48:02.765#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7656#
+[PollStartAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:47:23.546916] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully destroyed container for instance 3c583ad3-2403-42b5-80d6-f337edd8ced3 (STDOUT, STG)#
+#2026 07 20 12:48:02.765#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7656#
+[PollStartAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:47:35.344074] Stopping app with guid e1737b58-520d-42c3-b693-0fe288db2b4d (STDOUT, API)#
+#2026 07 20 12:48:02.765#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7656#
+[PollStartAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:47:35.494647] Starting app with guid e1737b58-520d-42c3-b693-0fe288db2b4d (STDOUT, API)#
+#2026 07 20 12:48:02.765#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7656#
+[PollStartAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:47:44.664793] Stopping app with guid e1737b58-520d-42c3-b693-0fe288db2b4d (STDOUT, API)#
+#2026 07 20 12:48:02.765#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7656#
+[PollStartAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:47:44.801034] Starting app with guid e1737b58-520d-42c3-b693-0fe288db2b4d (STDOUT, API)#
+#2026 07 20 12:48:02.765#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7656#
+[PollStartAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:47:53.913452] Stopping app with guid e1737b58-520d-42c3-b693-0fe288db2b4d (STDOUT, API)#
+#2026 07 20 12:48:02.765#Z#DEBUG#a1f4402a-8438-11f1-a8eb-eeee0a82b1a5.Healthcare-srv#flowable-async-job-executor-thread-7656#
+[PollStartAppStatusExecution] e1737b58-520d-42c3-b693-0fe288db2b4d [2026-07-20T12:47:54.059551] Starting app with guid e1737b58-520d-42c3-b693-0fe288db2b4d (STDOUT, API)#
