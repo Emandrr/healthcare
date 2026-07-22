@@ -14,7 +14,7 @@ module.exports = cds.service.impl(async function () {
         if (!patient && email) {
             patient = await SELECT.one
                 .from('healthcare.Patient')
-                .where({ email });
+                .where({ userId: email });
         }
 
         if (!patient) {
