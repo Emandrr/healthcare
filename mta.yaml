@@ -18,8 +18,6 @@ modules:
     parameters:
       buildpack: nodejs_buildpack
       instances: 1
-      memory: 512M
-      disk-quota: 512M
       readiness-health-check-type: http
       readiness-health-check-http-endpoint: /health
     build-parameters:
@@ -38,8 +36,8 @@ modules:
     path: gen/db
     parameters:
       buildpack: nodejs_buildpack
-      memory: 256M
-      disk-quota: 512M
+    requires:
+      - name: Healthcare-db
 
   - name: Healthcare-app-deployer
     type: com.sap.application.content
